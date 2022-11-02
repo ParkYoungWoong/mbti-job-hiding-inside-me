@@ -1,0 +1,9 @@
+body {
+  background-image: url("../images/main_bg.jpg");
+  background-position: top center;
+}
+img.character {
+  width: 100%;
+  max-width: 364px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,66 @@
+body {
+  background-image: url("../images/questions_bg.jpg");
+  background-position: top center;
+}
+.progress {
+  max-width: 500px;
+  height: 20px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+.progress .bar {
+  width: 10%;
+  height: 20px;
+  background-color: #FFB103;
+  border-radius: 10px;
+  transition: .2s;
+}
+
+.box {
+  max-width: 500px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 25px #DDE2E8;
+  background-color: #FFFFFF;
+}
+.box .number {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+  color: #2EC7A6;
+}
+.box .question {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+.box .answer {
+  margin-bottom: 35px;
+  border-radius: 120px;
+  font-size: 22px;
+}
+
+@media (max-width: 640px) {
+  .progress {
+    margin-bottom: 30px;
+  }
+  .box {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .box .question {
+    font-size: 28px;
+  }
+  .box .answer {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,75 @@
+body {
+  background-image: url("../images/result_bg.jpg");
+  background-position: top center;
+}
+img.character {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.box {
+  max-width: 600px;
+  min-height: 130px;
+  margin-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 140%;
+  text-decoration: none;
+  text-align: center;
+}
+
+.result {
+  max-width: 600px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140%;
+  text-align: center;  
+}
+.result h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.result.share h3 {
+  color: #32BFA1;
+}
+.result .jobs {
+  height: 200px;
+  display: flex;
+  gap: 10px;
+}
+.result .job {
+  flex: 1;
+  border: 1px solid #FFE603;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  background-image: url("../images/result_star.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result img.ad {
+  width: 100%;
+  max-width: 600px;
+}
+.btn {
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+@media (max-width: 640px) {
+  .result {
+    font-size: 24px;
+  }
+}
