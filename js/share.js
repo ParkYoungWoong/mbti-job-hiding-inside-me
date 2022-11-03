@@ -7,12 +7,8 @@ const isSupportedClipboardCommand = document.queryCommandSupported?.('copy')
 
 // 공유 및 복사 기능 상태 체크!
 const healthEl = document.createElement('div')
-healthEl.style.display = 'none'
-healthEl.innerHTML = `
-isSupportedShare: ${isSupportedShare},
-isSupportedClipboard: ${isSupportedClipboard},
-isSupportedClipboardCommand: ${isSupportedClipboardCommand}
-`
+// healthEl.style.display = 'none'
+healthEl.innerHTML = `share: ${isSupportedShare}, clipboard: ${isSupportedClipboard}, clipboardCommand: ${isSupportedClipboardCommand}`
 document.body.append(healthEl)
 
 // 공유 기능!
