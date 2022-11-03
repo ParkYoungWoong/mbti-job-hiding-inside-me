@@ -80,7 +80,7 @@ const questions = [
     ]
   },
 ]
-const results = {
+const mbtis = {
   entj: 1,
   entp: 1,
   estp: 1,
@@ -130,7 +130,7 @@ function nextQuestion(answerNumber) {
   renderQuestion()
 }
 function showResultPage() {
-  location.href = '/result' + results[mbti] + '.html'
+  location.href = '/results.html?mbti=' + mbti
 }
 
 // '답변1' 혹은 '답변2'를 클릭했을 때 동작하는 코드에요!

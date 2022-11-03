@@ -61,7 +61,7 @@ img.character {
   justify-content: center;
   align-items: center;
 }
-.result img.ad {
+.result .ad img {
   width: 100%;
   max-width: 600px;
   margin-bottom: 40px;
