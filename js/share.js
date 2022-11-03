@@ -7,8 +7,8 @@ const isSupportedClipboardCommand = document.queryCommandSupported?.('copy')
 
 // 공유 및 복사 기능 상태 체크!
 const healthEl = document.createElement('div')
-// healthEl.style.display = 'none'
-healthEl.innerHTML = `share: ${isSupportedShare}, clipboard: ${isSupportedClipboard}, clipboardCommand: ${isSupportedClipboardCommand}`
+healthEl.style.display = 'none'
+healthEl.innerHTML = `s: ${isSupportedShare}, c: ${isSupportedClipboard}, cc: ${isSupportedClipboardCommand}`
 document.body.append(healthEl)
 
 // 공유 기능!
@@ -44,7 +44,10 @@ async function copyToClipboard() {
     alert('링크를 복사했어요 ><')
     return
   }
-  // 복사 기능이 없는 경우 버튼 보이지 않도록 처리!
+}
+
+// 모든 기능이 없는 경우 공유 버튼 제거!
+if (!isSupportedShare && !isSupportedClipboard && !isSupportedClipboardCommand) {
   btnEl.style.display = 'none'
 }
 
