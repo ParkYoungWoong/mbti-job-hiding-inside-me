@@ -4,18 +4,22 @@ import { results, mbtis } from "./data.js"
 const mbti = new URLSearchParams(location.search).get('mbti')
 const result = results[mbtis[mbti] - 1]
 
+// 결과를 출력할 각 요소를 찾아요!
 const titleEl = document.querySelector('h1')
-const imageEl = document.querySelector('.character')
-const boxEls = document.querySelectorAll('.results .box')
+const characterEl = document.querySelector('.character')
+const boxEls = document.querySelectorAll('.box')
 const jobEls = document.querySelectorAll('.job')
-const adEl = document.querySelector('.ad')
+const lectureEl = document.querySelector('.lecture')
+const lectureImgEl = document.querySelector('.lecture img')
 
+// 각 요소에 내용을 채워넣어요!
 titleEl.innerHTML = result.title
-imageEl.src = result.image
+characterEl.src = result.character
 boxEls.forEach((boxEl, index) => {
   boxEl.innerHTML = result.results[index]
 })
 jobEls.forEach((jobEl, index) => {
   jobEl.innerHTML = result.jobs[index]
 })
-adEl.href = result.ad
+lectureEl.href = result.lectureUrl
+lectureImgEl.src = result.lectureImg

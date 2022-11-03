@@ -9,8 +9,10 @@ img.character {
   max-width: 600px;
   margin-bottom: 20px;
 }
-.box {
-  max-width: 600px;
+.result {
+  max-width: 600px;  
+}
+.result .box {
   min-height: 130px;
   margin-bottom: 15px;
   padding-top: 30px;
@@ -29,20 +31,13 @@ img.character {
   text-decoration: none;
   text-align: center;
 }
-
-.result {
-  max-width: 600px;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 140%;
-  text-align: center;  
-}
 .result h3 {
   margin-top: 40px;
   margin-bottom: 20px;
-}
-.result.share h3 {
-  color: #32BFA1;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140%;
+  text-align: center;
 }
 .result .jobs {
   height: 200px;
@@ -60,15 +55,16 @@ img.character {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140%;
+  text-align: center;
 }
-.result .ad img {
-  width: 100%;
+.result .lecture {
+  display: block;
   max-width: 600px;
   margin-bottom: 40px;
 }
-
-@media (max-width: 640px) {
-  .result {
-    font-size: 24px;
-  }
+.result .lecture img {
+  width: 100%;
 }
