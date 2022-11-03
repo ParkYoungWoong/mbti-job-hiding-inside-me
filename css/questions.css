@@ -1,6 +1,8 @@
 body {
+  background-color: #FFFFFF;
   background-image: url("../images/questions_bg.jpg");
   background-position: top center;
+  background-repeat: no-repeat;
 }
 .progress {
   max-width: 500px;
@@ -44,7 +46,6 @@ body {
   color: #000000;
 }
 .box .answer {
-  margin-bottom: 35px;
   border-radius: 120px;
   font-size: 22px;
 }

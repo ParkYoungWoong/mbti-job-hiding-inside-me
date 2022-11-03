@@ -1,6 +1,8 @@
 body {
+  background-color: #F6FCFF;
   background-image: url("../images/main_bg.jpg");
   background-position: top center;
+  background-repeat: no-repeat;
 }
 img.character {
   width: 100%;

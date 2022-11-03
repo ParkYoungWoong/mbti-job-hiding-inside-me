@@ -1,6 +1,8 @@
 body {
+  background-color: #EAF8FF;
   background-image: url("../images/result_bg.jpg");
   background-position: top center;
+  background-repeat: no-repeat;
 }
 img.character {
   width: 100%;
@@ -62,10 +64,7 @@ img.character {
 .result img.ad {
   width: 100%;
   max-width: 600px;
-}
-.btn {
-  margin-top: 40px;
-  font-size: 40px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 640px) {

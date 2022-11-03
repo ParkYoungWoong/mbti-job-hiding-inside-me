@@ -42,6 +42,7 @@ h2.page-subtitle {
 .btn {
   max-width: 500px;
   height: 100px;
+  margin-bottom: 35px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -60,7 +61,7 @@ h2.page-subtitle {
   background-color: #FFA32D;
   color: #FFFFFF;
 }
-.btn-orange:hover {
+.btn-orange:active {
   box-shadow: 0px 4px 0px #E66000;
   transform: translateY(10px);
 }
@@ -69,7 +70,7 @@ h2.page-subtitle {
   background-color: #F2F4F6;
   color: #444444;
 }
-.btn-gray:hover {
+.btn-gray:active {
   box-shadow: 0px 4px 0px #dfe1e2;
   transform: translateY(10px);
 }
@@ -78,15 +79,20 @@ h2.page-subtitle {
   background-color: #32BFA1;;
   color: #FFFFFF;
 }
-.btn-green:hover {
+.btn-green:active {
   box-shadow: 0px 4px 0px #299a82;;
   transform: translateY(10px);
+}
+.btn-small {
+  max-width: 350px;
+  height: 70px;
+  margin-bottom: 30px;
+  font-size: 26px;
 }
 
 @media (max-width: 640px) {
   body {
     padding-top: 50px;
-    padding-bottom: 50px;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -95,5 +101,8 @@ h2.page-subtitle {
   }
   .btn {
     font-size: 34px;
+  }
+  .btn-small {
+    font-size: 26px;
   }
 }
