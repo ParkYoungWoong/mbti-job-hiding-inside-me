@@ -15,10 +15,10 @@ const lectureImgEl = document.querySelector('.lecture img')
 // 각 요소에 내용을 채워넣어요!
 titleEl.innerHTML = result.title
 characterEl.src = result.character
-boxEls.forEach((boxEl, index) => {
+boxEls.forEach(function (boxEl, index) {
   boxEl.innerHTML = result.results[index]
 })
-jobEls.forEach((jobEl, index) => {
+jobEls.forEach(function (jobEl, index) {
   jobEl.innerHTML = result.jobs[index]
 })
 lectureEl.href = result.lectureUrl

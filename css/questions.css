@@ -19,13 +19,12 @@ body {
   transition: .2s;
 }
 .question-box {
-  max-width: 500px;
+  max-width: 420px;
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 20px;
-  box-sizing: border-box;
   box-shadow: 0px 4px 25px #DDE2E8;
   background-color: #FFFFFF;
 }

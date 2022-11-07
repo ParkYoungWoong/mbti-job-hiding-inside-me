@@ -11,12 +11,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.container {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-h1.page-title {
+.page-title {
   margin-bottom: 20px;
   font-size: 50px;
   font-weight: 800;
@@ -24,13 +19,12 @@ h1.page-title {
   color: #13B491;
   text-align: center;
 }
-h2.page-subtitle {
+.page-subtitle {
   width: 240px;
-  height: 60px;
+  height: 50px;
   margin-bottom: 20px;
   border: 5px solid #FFA32D;
   border-radius: 30px;
-  box-sizing: border-box;
   background-color: #FFFFFF;
   display: flex;
   justify-content: center;
@@ -54,7 +48,7 @@ h2.page-subtitle {
   text-align: center;
   cursor: pointer;
   user-select: none;
-  transition: 0.1s;
+  transition: .1s;
 }
 .btn-orange {
   box-shadow: 0px 14px 0px #E66000;
@@ -76,7 +70,7 @@ h2.page-subtitle {
 }
 .btn-green {
   box-shadow: 0px 14px 0px #299a82;
-  background-color: #32BFA1;;
+  background-color: #32BFA1;
   color: #FFFFFF;
 }
 .btn-green:active {
@@ -96,7 +90,7 @@ h2.page-subtitle {
     margin-left: 20px;
     margin-right: 20px;
   }
-  h1.page-title {
+  .page-title {
     font-size: 40px;
   }
   .btn {

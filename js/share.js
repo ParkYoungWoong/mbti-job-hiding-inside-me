@@ -52,7 +52,7 @@ if (!isSupportedShare && !isSupportedClipboard && !isSupportedClipboardCommand) 
 }
 
 // 공유 버튼을 클릭했을 떄!
-btnEl?.addEventListener('click', () => {
+btnEl?.addEventListener('click', function () {
   if (isSupportedShare) {
     startNativeShare()
     return

@@ -4,7 +4,7 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
 }
-img.character {
+.character {
   width: 100%;
   max-width: 364px;
   margin-bottom: 40px;

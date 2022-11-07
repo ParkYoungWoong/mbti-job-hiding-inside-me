@@ -1,10 +1,10 @@
 body {
   background-color: #EAF8FF;
   background-image: url("../images/result_bg.jpg");
-  background-position: top center;
+  background-position: top center; 
   background-repeat: no-repeat;
 }
-img.character {
+.character {
   width: 100%;
   max-width: 600px;
   margin-bottom: 20px;
@@ -13,14 +13,13 @@ img.character {
   max-width: 600px;  
 }
 .result .box {
-  min-height: 130px;
+  min-height: 70px;
   margin-bottom: 15px;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 20px;
-  box-sizing: border-box;
   background-color: #FFFFFF;
   display: flex;
   justify-content: center;
