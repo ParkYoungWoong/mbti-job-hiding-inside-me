@@ -1,4 +1,4 @@
-import { questions } from "./data.js"
+import { questions } from './data.js'
 
 // 질문 화면의 각 요소를 찾아요!
 const progressValueEl = document.querySelector('.progress .value')
