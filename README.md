@@ -2,7 +2,7 @@
 
 # 내 안에 숨어있는 직업캐 찾기!
 
-[데모 보기](https://prismatic-monstera-4c9d6a.netlify.app/)  
+<a href="https://prismatic-monstera-4c9d6a.netlify.app/" target="_blank">데모 보기</a> 
 
 <img src="./screenshot-main.jpg" alt="" width="50%" />
 
@@ -10,7 +10,7 @@
 
 강의 예제에서 사용하는 이미지와 데이터 파일 등을 [다운로드](./assets.zip) 하세요!
 
-
+<img src="./screenshot-download-assets.jpg" alt="다운로드 방법!" />
 
 ## Favicon(파비콘, favorites icon)
 
