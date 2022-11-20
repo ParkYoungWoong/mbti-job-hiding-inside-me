@@ -7,5 +7,7 @@ body {
 .character {
   width: 100%;
   max-width: 364px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 40px;
 }

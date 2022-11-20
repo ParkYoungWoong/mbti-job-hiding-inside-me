@@ -161,20 +161,20 @@ export const results = [
   }
 ]
 export const mbtis = {
-  entj: 1,
-  entp: 1,
-  estp: 1,
-  esfp: 2,
-  esfj: 2,
-  enfj: 2,
-  infp: 3,
-  isfp: 3,
-  isfj: 3,
-  infj: 3,
-  estj: 4,
-  istp: 4,
-  intj: 5,
-  intp: 5,
-  istj: 5,
-  enfp: 6
+  entj: 0,
+  entp: 0,
+  estp: 0,
+  esfp: 1,
+  esfj: 1,
+  enfj: 1,
+  infp: 2,
+  isfp: 2,
+  isfj: 2,
+  infj: 2,
+  estj: 3,
+  istp: 3,
+  intj: 4,
+  intp: 4,
+  istj: 4,
+  enfp: 5
 }

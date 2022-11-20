@@ -2,7 +2,7 @@ import { results, mbtis } from './data.js'
 
 // 주소 쿼리스트링에서 mbti 값을 가져오기!
 const mbti = new URLSearchParams(location.search).get('mbti')
-const result = results[mbtis[mbti] - 1]
+const result = results[mbtis[mbti]]
 
 // 결과를 출력할 각 요소를 찾아요!
 const titleEl = document.querySelector('h1')
