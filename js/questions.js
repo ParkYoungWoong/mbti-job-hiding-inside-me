@@ -27,8 +27,8 @@ function nextQuestion(choiceNumber) {
     return
   }
   const question = questions[currentNumber]
-  mbti += question.choices[choiceNumber].value
-  currentNumber += 1
+  mbti = mbti + question.choices[choiceNumber].value
+  currentNumber = currentNumber + 1
   renderQuestion()
 }
 // 결과 페이지로 이동!
