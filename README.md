@@ -48,7 +48,7 @@
 
 ```css
 body {
-  font-family: "Pretendard Variable";
+  font-family: "Pretendard Variable", sans-serif;
 }
 ```
 
