@@ -10,7 +10,7 @@
 
 강의 예제에서 사용하는 이미지와 데이터 파일 등을 [다운로드](./assets.zip) 하세요!
 
-<img src="./screenshot-download-assets.jpg" alt="다운로드 방법!" />
+<img src="./screenshot-download-assets.jpg" alt="다운로드 방법!" width="60%" />
 
 ## Favicon(파비콘, favorites icon)
 
