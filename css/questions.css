@@ -1,5 +1,4 @@
 body {
-  background-color: #FFFFFF;
   background-image: url("../images/questions_bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
@@ -18,7 +17,7 @@ body {
   height: 20px;
   background-color: #FFB103;
   border-radius: 10px;
-  transition: .2s;
+  transition: 0.2s;
 }
 .question-box {
   max-width: 420px;
@@ -43,9 +42,8 @@ body {
   margin-bottom: 40px;
   font-weight: 700;
   font-size: 30px;
-  line-height: 150%;
+  line-height: 1.5;
   text-align: center;
-  color: #000000;
 }
 .question-box .choice {
   border-radius: 120px;

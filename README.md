@@ -96,5 +96,7 @@ The Open Graph protocol & Twitter Cards
 - `twitter:image`: 페이지의 대표 이미지 주소(URL)
 - `twitter:url`: 페이지 주소(URL)
 
+## 웹사이트 업로드하기
 
+[Netlify](https://www.netlify.com/) 서비스에 회원가입 후 웹사이트를 업로드할 수 있어요.
 

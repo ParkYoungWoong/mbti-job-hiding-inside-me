@@ -11,7 +11,7 @@ img {
   margin-bottom: 20px;
   font-size: 50px;
   font-weight: 800;
-  line-height: 130%;
+  line-height: 1.3;
   color: #13B491;
   text-align: center;
 }
@@ -43,38 +43,38 @@ img {
   align-items: center;
   font-weight: 700;
   font-size: 50px;
-  line-height: 140%;
+  line-height: 1.4;
   text-decoration: none;
   text-align: center;
   cursor: pointer;
   user-select: none;
-  transition: .1s;
+  transition: 0.1s;
 }
 .btn-orange {
-  box-shadow: 0 14px 0 #E66000;
   background-color: #FFA32D;
+  box-shadow: 0 14px 0 #E66000;
   color: #FFFFFF;
 }
 .btn-orange:active {
   box-shadow: 0 4px 0 #E66000;
   transform: translateY(10px);
 }
-.btn-gray {
-  box-shadow: 0 14px 0 #dfe1e2;
-  background-color: #F2F4F6;
-  color: #444444;
-}
-.btn-gray:active {
-  box-shadow: 0 4px 0 #dfe1e2;
-  transform: translateY(10px);
-}
 .btn-green {
-  box-shadow: 0 14px 0 #299a82;
   background-color: #32BFA1;
+  box-shadow: 0 14px 0 #299A82;
   color: #FFFFFF;
 }
 .btn-green:active {
-  box-shadow: 0 4px 0 #299a82;;
+  box-shadow: 0 4px 0 #299A82;;
+  transform: translateY(10px);
+}
+.btn-gray {
+  background-color: #F2F4F6;
+  box-shadow: 0 14px 0 #DFE1E2;
+  color: #444444;
+}
+.btn-gray:active {
+  box-shadow: 0 4px 0 #DFE1E2;
   transform: translateY(10px);
 }
 .btn-small {
@@ -95,8 +95,5 @@ img {
   }
   .btn {
     font-size: 34px;
-  }
-  .btn-small {
-    font-size: 26px;
   }
 }

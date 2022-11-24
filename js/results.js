@@ -5,7 +5,7 @@ const mbti = new URLSearchParams(location.search).get('mbti')
 const result = results[mbtis[mbti]]
 
 // 결과를 출력할 각 요소를 찾아요!
-const titleEl = document.querySelector('h1')
+const titleEl = document.querySelector('.page-title')
 const characterEl = document.querySelector('.character')
 const boxEls = document.querySelectorAll('.box')
 const jobEls = document.querySelectorAll('.job')

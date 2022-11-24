@@ -5,8 +5,8 @@ body {
   background-repeat: no-repeat;
 }
 .character {
-  width: 100%;
   max-width: 364px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
