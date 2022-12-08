@@ -2,7 +2,7 @@
 
 # 내 안에 숨어있는 직업캐 찾기!
 
-<a href="https://prismatic-monstera-4c9d6a.netlify.app/" target="_blank">데모 보기</a> 
+<a href="https://prismatic-monstera-4c9d6a.netlify.app/" target="_blank">데모 사이트 보기</a> 
 
 <img src="./screenshot-main.jpg" alt="" width="50%" />
 
